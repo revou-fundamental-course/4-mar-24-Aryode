@@ -1,0 +1,73 @@
+header>h1 {
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+}
+
+/* Display Style */
+.container-item {
+    width: 100%;
+    padding: 24px;
+}
+
+.container-item>h2 {
+    text-align: center;
+}
+
+.container-result, .consult-result {
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-bottom: 24px;
+}
+
+.container-form {
+    text-align: left;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.container-form>div {
+    padding: 8px;
+}
+
+.form-item {
+    height: 24px;
+    width: 640px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+button {
+    border: 0px;
+    border-radius: 8px;
+    height: 32px;
+    padding-right: 24px;
+    padding-left: 24px;
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+#calculate-button, #information-result {
+    background-color: navy;
+    color: whitesmoke;
+}
+
+.information-download {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .container-form {
+        width: 100%;
+    }
+
+    .container-item {
+        padding: 12px;
+    }
+}
